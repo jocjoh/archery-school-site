@@ -1,0 +1,70 @@
+header {
+  text-align: left;
+  padding: 25px 100px 25px 25px;
+  background-color: white;
+  margin: 5px 150px;
+}
+
+.navigation {
+  text-align: right;
+  background-color: inherit;
+}
+
+.introblurb {
+  position: relative;
+  text-align: right;
+  color: white;
+  margin: 5px 150px;
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  color: #03a3df;
+  background-color: white;
+}
+
+.nonprofit {
+  position: absolute;
+  top: 63%;
+  right: 2%;
+  color: #03a3df;
+  background-color: white;
+}
+
+.state {
+  position: absolute;
+  top: 72%;
+  right: 2%;
+  left: 50%;
+  color: #03a3df;
+  background-color: white;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-style: bold;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-style: bold;
+  font-size: 24px;
+}
+
+p{
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+}
+
+.testimonial {
+  margin: 5px 450px 5px 150px;
+}
+
+.quote {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: #03a3df;
+}
