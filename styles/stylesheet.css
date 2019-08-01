@@ -8,6 +8,9 @@ header {
 .navigation {
   text-align: right;
   background-color: inherit;
+  color: #03a3df;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
 }
 
 .introblurb {
@@ -44,13 +47,13 @@ header {
 
 h1 {
   font-family: Arial, sans-serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 40px;
 }
 
 h2 {
   font-family: Arial, sans-serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 24px;
 }
 
@@ -60,11 +63,19 @@ p{
 }
 
 .testimonial {
-  margin: 5px 450px 5px 150px;
+  margin: 5px 700px 5px 150px;
 }
 
 .quote {
   font-family: Arial, sans-serif;
   font-size: 30px;
+  color: #03a3df;
+}
+
+.attribution {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
   color: #03a3df;
 }
