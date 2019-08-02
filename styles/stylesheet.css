@@ -48,6 +48,8 @@ h1 {
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 40px;
+  color: #03a3df;
+  text-align: center;
 }
 
 h2 {
@@ -217,7 +219,7 @@ i.fa-twitter {
 .schedule {
   float: right;
   width: 25%;
-  padding: 20px;
+  padding: 10px;
 }
 
 article {
@@ -228,9 +230,30 @@ article {
   text-align: center;
 }
 
+i.fa-dollar-sign {
+  color: #ecb722;
+}
+
 .safety {
   float: right;
   margin: 5px 150px 5px 5px;
   position: relative;
   width: 25%;
+}
+
+.mission {
+  margin: 5px 0px 5px 150px;
+  float: left;
+  position: relative;
+  width: 40%;
+}
+
+.founder {
+  float: right;
+  width: 25%;
+  padding: 10px;
+}
+
+.instructors {
+  margin: 5px 150px 5px 150px;
 }
