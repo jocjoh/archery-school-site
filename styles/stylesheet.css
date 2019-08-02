@@ -16,8 +16,7 @@ header {
 .introblurb {
   position: relative;
   text-align: right;
-  color: white;
-  margin: 5px 150px;
+  margin: 5px 150px 5px 150px;
 }
 
 .welcome {
@@ -63,7 +62,10 @@ p{
 }
 
 .testimonial {
-  margin: 5px 700px 5px 150px;
+  margin: 5px 5px 5px 150px;
+  float: left;
+  position: relative;
+  width: 40%;
 }
 
 .quote {
@@ -78,4 +80,108 @@ p{
   text-transform: uppercase;
   font-size: 14px;
   color: #03a3df;
+}
+
+aside {
+  float: right;
+  position: relative;
+  width: 30%;
+  margin: 5px 150px 5px 20px;
+  font-family: Arial, sans-serif;
+  font-size: smaller;
+  text-align: center;
+  color: #03a3df;
+  padding: 0px;
+  border-style: solid;
+  border-color: #ecb722;
+  border-width: 1px;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #1b447f;
+}
+
+footer {
+  position: relative;
+  text-align: left;
+  color: white;
+  margin: 5px 150px 5px 150px;
+}
+
+h4 {
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.visit {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 10px;
+}
+
+.address {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-size: 10px;
+}
+.city {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 10px;
+}
+
+.contact {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-size: 10px;
+}
+
+.phone {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 10px;
+}
+
+.email {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  font-size: 10px;
+}
+
+.connect {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 10px;
+}
+
+i.fa-facebook {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 10px;
+}
+
+i.fa-instagram {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  font-size: 10px;
+}
+
+i.fa-twitter {
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  font-size: 10px;
 }
