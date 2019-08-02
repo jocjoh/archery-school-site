@@ -211,11 +211,13 @@ i.fa-twitter {
   float: left;
   position: relative;
   width: 45%;
+  text-align: center;
 }
 
 .schedule {
   float: right;
   width: 25%;
+  padding: 20px;
 }
 
 article {
@@ -224,4 +226,11 @@ article {
   border-style: solid;
   margin: 3px;
   text-align: center;
+}
+
+.safety {
+  float: right;
+  margin: 5px 150px 5px 5px;
+  position: relative;
+  width: 25%;
 }
