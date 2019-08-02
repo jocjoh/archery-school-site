@@ -68,6 +68,17 @@ p{
   width: 40%;
 }
 
+i.fa-quote-left {
+  color: #ecb722;
+  font-size: 20px;
+  float: left;
+}
+
+i.fa-quote-right{
+  color: #ecb722;
+  font-size: 20px;
+}
+
 .quote {
   font-family: Arial, sans-serif;
   font-size: 30px;
@@ -80,6 +91,7 @@ p{
   text-transform: uppercase;
   font-size: 14px;
   color: #03a3df;
+  text-align: right;
 }
 
 aside {
@@ -90,11 +102,12 @@ aside {
   font-family: Arial, sans-serif;
   font-size: smaller;
   text-align: center;
-  color: #03a3df;
+  color: white;
   padding: 0px;
+  background-color: #ecb722;
   border-style: solid;
-  border-color: #ecb722;
-  border-width: 1px;
+  border-color: #444444;
+  border-width: 3px;
 }
 
 h3 {
@@ -102,6 +115,7 @@ h3 {
   font-weight: bold;
   font-size: 17px;
   color: #1b447f;
+  text-align: center;
 }
 
 footer {
@@ -169,19 +183,45 @@ i.fa-facebook {
   position: absolute;
   top: 50%;
   left: 10%;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 i.fa-instagram {
   position: absolute;
   top: 50%;
   left: 12%;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 i.fa-twitter {
   position: absolute;
   top: 50%;
   left: 14%;
-  font-size: 10px;
+  font-size: 15px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.offerings {
+  margin: 5px 0px 5px 150px;
+  float: left;
+  position: relative;
+  width: 45%;
+}
+
+.schedule {
+  float: right;
+  width: 25%;
+}
+
+article {
+  border-color: #03a3df;
+  border-width: 3px;
+  border-style: solid;
+  margin: 3px;
+  text-align: center;
 }
