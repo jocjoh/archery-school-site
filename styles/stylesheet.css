@@ -272,7 +272,7 @@ i.fa-dollar-sign {
 
 .instructors {
   margin: 5px 150px 5px 150px;
-
+  justify-content: center;
 }
 
 .box {
@@ -285,6 +285,7 @@ i.fa-dollar-sign {
 
 .instructors-flex {
   display: flex;
+  justify-content: center;
 }
 
 hr {
