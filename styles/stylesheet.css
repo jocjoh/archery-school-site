@@ -99,7 +99,7 @@ i.fa-quote-right{
 aside {
   float: right;
   position: relative;
-  width: 30%;
+  width: 20%;
   margin: 5px 150px 5px 20px;
   font-family: Arial, sans-serif;
   font-size: smaller;
@@ -107,7 +107,7 @@ aside {
   color: white;
   padding: 0px;
   background-color: #ecb722;
-  border-style: solid;
+  border-style: dashed;
   border-color: #444444;
   border-width: 3px;
 }
@@ -242,12 +242,6 @@ i.fa-twitter {
   grid-column: 1 / span 4;
 }
 
-.schedule {
-  float: right;
-  width: 25%;
-  padding: 10px;
-}
-
 article {
   border-color: #03a3df;
   border-width: 3px;
@@ -274,12 +268,6 @@ i.fa-dollar-sign {
   float: left;
   position: relative;
   width: 40%;
-}
-
-.founder {
-  float: right;
-  width: 25%;
-  padding: 10px;
 }
 
 .instructors {
