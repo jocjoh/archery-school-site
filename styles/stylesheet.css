@@ -258,7 +258,7 @@ i.fa-dollar-sign {
   float: right;
   margin: 5px 150px 5px 5px;
   position: relative;
-  width: 25%;
+  width: 20%;
 }
 
 /*About us page styles start here*/
@@ -272,6 +272,7 @@ i.fa-dollar-sign {
 
 .instructors {
   margin: 5px 150px 5px 150px;
+
 }
 
 .box {
@@ -279,8 +280,13 @@ i.fa-dollar-sign {
   width: 300px;
   border: 5px solid #03a3df;
   background: white;
+  padding: 10px;
 }
 
 .instructors-flex {
   display: flex;
+}
+
+hr {
+  border-color: #ecb722;
 }
