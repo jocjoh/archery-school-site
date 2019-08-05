@@ -1,16 +1,20 @@
 header {
   text-align: left;
   padding: 25px 100px 25px 25px;
-  background-color: white;
+  background-color: #1b447f;
   margin: 5px 150px;
 }
 
 .navigation {
   text-align: right;
   background-color: inherit;
-  color: #03a3df;
+  color: white;
   font-family: Arial, sans-serif;
   font-weight: bold;
+}
+
+a {
+  color: #ecb722;
 }
 
 .introblurb {
@@ -107,7 +111,7 @@ aside {
   color: white;
   padding: 0px;
   background-color: #ecb722;
-  border-style: dashed;
+  border-style: solid;
   border-color: #444444;
   border-width: 3px;
 }
