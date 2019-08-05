@@ -267,6 +267,8 @@ i.fa-dollar-sign {
   width: 25%;
 }
 
+/*About us page styles start here*/
+
 .mission {
   margin: 5px 0px 5px 150px;
   float: left;
@@ -282,4 +284,15 @@ i.fa-dollar-sign {
 
 .instructors {
   margin: 5px 150px 5px 150px;
+}
+
+.box {
+  height: 500px;
+  width: 300px;
+  border: 5px solid #03a3df;
+  background: white;
+}
+
+.instructors-flex {
+  display: flex;
 }
