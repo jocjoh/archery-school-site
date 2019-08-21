@@ -13,8 +13,20 @@ header {
   font-weight: bold;
 }
 
+.hidden {
+  position: relative;
+  left: 10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
+  
+}
+
 a {
   color: #ecb722;
+  font-size: larger;
 }
 
 .introblurb {
